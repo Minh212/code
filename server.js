@@ -7,7 +7,7 @@ const server = http.createServer((req, res)=>{
     switch(req.url){
         case '/home':
         case '/':
-            res.end('<h1>Home Page</h1>');
+            res.end('<h1>Home</h1>');
             break;
         case '/about':
             res.end('<h1>About page');
